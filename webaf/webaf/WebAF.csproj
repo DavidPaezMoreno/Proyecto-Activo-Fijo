@@ -81,6 +81,7 @@
     <Content Include="Ingresar.aspx" />
     <Content Include="Inicio.aspx" />
     <Content Include="JerarquiasDeAprobacion.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="Login.css" />
     <Content Include="principal\Index.aspx" />
     <Content Include="Prueba.aspx" />
@@ -187,6 +188,13 @@
     </Compile>
     <Compile Include="JerarquiasDeAprobacion.aspx.designer.cs">
       <DependentUpon>JerarquiasDeAprobacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="principal\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>

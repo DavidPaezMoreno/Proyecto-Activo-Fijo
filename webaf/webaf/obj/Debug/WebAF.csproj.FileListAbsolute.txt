@@ -2,3 +2,7 @@ C:\Users\David\Documents\Trabajo\Grupo TI\Farmacias del Ahorro\Desarrollo WEB\we
 C:\Users\David\Documents\Trabajo\Grupo TI\Farmacias del Ahorro\Desarrollo WEB\webaf\WebAF\bin\WebAF.pdb
 C:\Users\David\Documents\Trabajo\Grupo TI\Farmacias del Ahorro\Desarrollo WEB\webaf\WebAF\obj\Debug\WebAF.dll
 C:\Users\David\Documents\Trabajo\Grupo TI\Farmacias del Ahorro\Desarrollo WEB\webaf\WebAF\obj\Debug\WebAF.pdb
+C:\Users\David\Documents\Trabajo\Grupo TI\Farmacias del Ahorro\Desarrollo WEB\Proyecto-Activo-Fijo\webaf\WebAF\bin\WebAF.dll
+C:\Users\David\Documents\Trabajo\Grupo TI\Farmacias del Ahorro\Desarrollo WEB\Proyecto-Activo-Fijo\webaf\WebAF\bin\WebAF.pdb
+C:\Users\David\Documents\Trabajo\Grupo TI\Farmacias del Ahorro\Desarrollo WEB\Proyecto-Activo-Fijo\webaf\WebAF\obj\Debug\WebAF.dll
+C:\Users\David\Documents\Trabajo\Grupo TI\Farmacias del Ahorro\Desarrollo WEB\Proyecto-Activo-Fijo\webaf\WebAF\obj\Debug\WebAF.pdb
