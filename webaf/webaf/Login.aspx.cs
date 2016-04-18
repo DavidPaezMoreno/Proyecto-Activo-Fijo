@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using WebAF.Controllers;
 
 
 namespace WebAF
@@ -20,8 +21,17 @@ namespace WebAF
 
         protected void btnAceptar_Click(object sender, EventArgs e)
         {
-
+            
             //---------Conexion de la base de datos para comprobar que hay usuario con ese mail y contraseña----------
+            DBConnection coneccion = new DBConnection();
+            try{
+                coneccion.Open();
+                coneccion.Ejecuta("Select * from FA_USERS");
+                coneccion.Close();
+            }catch (Exception ex){
+                string mensaje = ex.Message;
+            }
+
             if (txtEmail.Text == "correo" && txtPassword.Text == "pass")
             {
                 //Si encuentra resultados (si hay mas de una fila entonces existe el usuario)
