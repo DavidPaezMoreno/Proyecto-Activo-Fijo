@@ -11,6 +11,9 @@ namespace WebAF
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if(Session["email"] == null && Session["password"] == null)
+            Response.Redirect("Login.aspx");
+
             List<string> listaCombo = new List<string>();
             listaCombo.Add("Opcion 1");
             listaCombo.Add("Opcion 2");
@@ -28,6 +31,15 @@ namespace WebAF
 
             cmb_centroCosto.SelectedIndex = 2;
             cmb_nombreEmpleado.SelectedIndex = 4;
+        }
+
+        protected void btn_closeSession_Click(object sender, EventArgs e)
+        {
+                //Si encuentra resultados (si hay mas de una fila entonces existe el usuario)
+            Session["email"] = null;
+            Session["password"] = null;
+            Response.Redirect("Login.aspx");
+
         }
     }
 }

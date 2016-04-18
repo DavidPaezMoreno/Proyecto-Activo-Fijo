@@ -11,7 +11,10 @@
     <img src="http://cdn-skin.fahorro.com/skin/frontend/censere/release0316/images/logo.png" alt="Imagen no encontrada"/>
     <div class="title">
             Inicio
-        </div>
+            <div class="close_session">
+                <asp:Button ID="btn_closeSession" runat="server" Text="Cerrar Sesión" class="button" OnClick="btn_closeSession_Click"/>
+            </div>
+    </div>
     <div class="body_container">
         
         <div class="header_part">

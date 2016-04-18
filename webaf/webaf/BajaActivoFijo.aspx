@@ -12,7 +12,7 @@
     <img src="http://cdn-skin.fahorro.com/skin/frontend/censere/release0316/images/logo.png" alt="Imagen no encontrada"/>
     <div class="title">
             Baja de activos fijos
-        </div>
+    </div>
     <div class="body_container">
         
         <div class="header_part">
@@ -100,14 +100,7 @@
         </div>
     </div>
 
-    <div class="modal_container">
     
-        <div class="modal_message">
-        <div class="modal_close_icon"></div>
-            <div class="modal_title">Advertencia</div>
-            <div class="modal_body">No olvides enviar los archivos correspondientes a la venta.</div>
-        </div>
-    </div>
     </form>
 </body>
 </html>

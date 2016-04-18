@@ -5,120 +5,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Login</title>
+    <link rel="Stylesheet" href="Styles/FarmaciasDelAhorro_Estilos.css" type="text/css" />
     <style type="text/css">
-        
         body
         {
             font-family: 'Open sans',sans-serif;
             background-color: #f2f3f5;
-        }
-                
-        .btnAceptar
-        {
-            width:0.1px;
-            height: 0.1px;
-            opactity: 0;
-            overflow:hidden;
-            position: absolute;
-            z-index: -1;
-        }
-        .btnAceptarLabel
-        {
-            font-size: 14px;
-            font-weight:700;
-            vertical-align:middle;
-            text-align:center;
-            color:white;
-            display:inline-block;
-            background-color: #233b75;
-            padding:4px;
-            width: 140px;
-            line-height:25px;
-            text-align:center;
-            vertical-align:middle;
-            z-index:1;
-        }
-        
-        .btnAceptarLabel:hover
-        {
-            background-color: #2F509D;
-        }
-        
-        .btnAceptarLabel:active
-        {
-            background-color: #1D3262;
-        }
-        
-        .txtLogin
-        {
-            height:20px;
-            margin-top:8px;
-            margin-bottom:8px;
-            width:210px;
-        }
-        
-        .bigBlockDisplay
-        {
-            margin-top:10%;
-            padding:30px;
-            border: 1px solid #ececec;
-            background-color: #ffffff;         
-        }
-        
-        .blockDisplay
-        {
-            display: block;
-            width:400px;
-            margin-left:auto;
-            margin-right:auto;
-            vertical-align:middle;
-        }
-        
-        .blockCenter
-        {
-            text-align: center;
-            margin: 0;
-        }
-         
-        
-        .inBlockDisplay
-        {
-            display: block;
-            width:372px;
-            display:block;
-            margin-top:15px;
-            margin-left:auto;
-            margin-right:auto;
-            vertical-align:middle;
-        }
-        
-        .headerText
-        {
-            text-align:center;
-            font-size: 16pt;
-            color: #0B53AB;            
-        }
-        
-        .recuperarContrasena
-        {
-            margin-top:3px;
-            color:#7f7f7f;
-            text-align:center;
-        } 
-        
-        .recuperarContrasena:Hover
-        {
-            margin-top:3px;
-            color:#000000;
-            text-align:center;
-        }
-        
-        .labelLogin
-        {
-            font-weight:bold;
-            font-size:14px;
-        }
-        
+        }        
     </style>
 </head>
 <body>
@@ -137,9 +30,18 @@
                 <label for="btnAceptar" class="btnAceptarLabel" id="Label1">Iniciar sesión</label>
                 <label class="recuperarContrasena" id="lblRecuperarContrasena">¿Haz olvidado tu contraseña?</label>
             </div>
-            
         </div>
     </div>
+
+    <%--<div class="modal_container">
+    
+        <div class="modal_message">
+        <div class="modal_close_icon"></div>
+            <div class="modal_title">Advertencia</div>
+            <div class="modal_body">No olvides enviar los archivos correspondientes a la venta.</div>
+        </div>
+    </div>--%>
+
     </form>
 </body>
 </html>

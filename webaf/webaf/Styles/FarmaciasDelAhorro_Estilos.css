@@ -10,6 +10,129 @@ img
     padding-left: 10%;    
 }
 
+.close_session
+{
+    display: inline-block;
+    float: right;
+}
+
+.close_session .button
+{
+    background-color: #233b75;
+    color: #FFFFFF;
+    
+    margin: none;
+    border: none;
+    padding: none;
+    font-size: 16px;
+    height:auto;
+}
+.btnAceptar
+{
+    width:0.1px;
+    height: 0.1px;
+    opactity: 0;
+    overflow:hidden;
+    position: absolute;
+    z-index: -1;
+}
+.btnAceptarLabel
+{
+    font-size: 14px;
+    font-weight:700;
+    vertical-align:middle;
+    text-align:center;
+    color:white;
+    display:inline-block;
+    background-color: #233b75;
+    padding:4px;
+    width: 140px;
+    line-height:25px;
+    text-align:center;
+    vertical-align:middle;
+    z-index:1;
+}
+        
+.btnAceptarLabel:hover
+{
+    background-color: #2F509D;
+}
+        
+.btnAceptarLabel:active
+{
+    background-color: #1D3262;
+}
+        
+.txtLogin
+{
+    height:20px;
+    margin-top:8px;
+    margin-bottom:8px;
+    width:210px;
+}
+        
+.bigBlockDisplay
+{
+    margin-top:10%;
+    padding:30px;
+    border: 1px solid #ececec;
+    background-color: #ffffff;         
+}
+        
+.blockDisplay
+{
+    display: block;
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    vertical-align:middle;
+}
+        
+.blockCenter
+{
+    text-align: center;
+    margin: 0;
+}
+         
+        
+.inBlockDisplay
+{
+    display: block;
+    width:372px;
+    display:block;
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    vertical-align:middle;
+}
+        
+.headerText
+{
+    text-align:center;
+    font-size: 16pt;
+    color: #0B53AB;            
+}
+        
+.recuperarContrasena
+{
+    margin-top:3px;
+    color:#7f7f7f;
+    text-align:center;
+} 
+        
+.recuperarContrasena:Hover
+{
+    margin-top:3px;
+    color:#000000;
+    text-align:center;
+}
+        
+.labelLogin
+{
+    font-size:14px;
+    color: #c5c5c5;
+}
+
 .title
 {
     background-color: #233b75;
@@ -17,6 +140,7 @@ img
     
     padding: 5px;
     padding-left: 8%;
+    padding-right: 8%;
     margin: 0;
     
     height: 25;
@@ -114,7 +238,7 @@ li .control
     font-size: 16px;
 }
 
-.form_footer .button:hover
+.button:hover
 {
     background-color: #007bba;
     color: #FFFFFF;
