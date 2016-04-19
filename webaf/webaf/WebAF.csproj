@@ -86,6 +86,7 @@
     <Content Include="principal\Index.aspx" />
     <Content Include="Prueba.aspx" />
     <Content Include="ReclasificacionActivosFijos.aspx" />
+    <Content Include="Scripts\Modal.js" />
     <Content Include="Styles\FarmaciasDelAhorro_Estilos.css" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
@@ -155,6 +156,7 @@
       <DependentUpon>BajaActivoFijo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Controllers\DBConnection.cs" />
+    <Compile Include="Controllers\FA_Users_Controller.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -197,6 +199,7 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Models\FA_Users.cs" />
     <Compile Include="principal\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -226,7 +229,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config" />

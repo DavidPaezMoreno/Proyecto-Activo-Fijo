@@ -6,6 +6,8 @@
 <head runat="server">
     <title>Login</title>
     <link rel="Stylesheet" href="Styles/FarmaciasDelAhorro_Estilos.css" type="text/css" />
+    <script src="Scripts/Modal.js" type ="text/javascript"></script>
+    <script src="Scripts/jquery-1.4.1.js" type ="text/javascript"></script>
     <style type="text/css">
         body
         {
@@ -28,7 +30,9 @@
                 <asp:Button ID="btnAceptar" class="btnAceptar" runat="server" 
                     onclick="btnAceptar_Click"/>
                 <label for="btnAceptar" class="btnAceptarLabel" id="Label1">Iniciar sesión</label>
-                <label class="recuperarContrasena" id="lblRecuperarContrasena">¿Haz olvidado tu contraseña?</label>
+                <asp:Button ID="btnRecuperarContrasena" class="btnAceptar" runat="server" 
+                    onclick="lblRecuperarContrasena_Click"/>
+                <label class="recuperarContrasena" for="btnRecuperarContrasena" id="lblRecuperarContrasena" >¿Haz olvidado tu contraseña?</label>
             </div>
         </div>
     </div>
@@ -39,6 +43,9 @@
         <div class="modal_close_icon"></div>
             <div class="modal_title">Advertencia</div>
             <div class="modal_body">No olvides enviar los archivos correspondientes a la venta.</div>
+            <div class="form_footer">
+            <asp:Button ID="btn_siguiente" runat="server" Text="Aceptar" class="button"/>
+        </div>
         </div>
     </div>--%>
 

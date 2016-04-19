@@ -4,14 +4,16 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using WebAF.Models;
 
 namespace WebAF
 {
     public partial class Inicio : System.Web.UI.Page
     {
+        
         protected void Page_Load(object sender, EventArgs e)
         {
-            if(Session["email"] == null && Session["password"] == null)
+            if(Session["user"] == null)
             Response.Redirect("Login.aspx");
 
             List<string> listaCombo = new List<string>();
@@ -36,8 +38,7 @@ namespace WebAF
         protected void btn_closeSession_Click(object sender, EventArgs e)
         {
                 //Si encuentra resultados (si hay mas de una fila entonces existe el usuario)
-            Session["email"] = null;
-            Session["password"] = null;
+            Session["user"] = null;
             Response.Redirect("Login.aspx");
 
         }
