@@ -15,15 +15,15 @@ namespace WebAF.Controllers
             _sqlConnection = new SqlConnection(_connectionString);
         }
 
-        public void Ejecuta(string query) {
+        public SqlDataReader Ejecuta(string query) {
             SqlCommand command = new SqlCommand(query, _sqlConnection);
             SqlDataReader dataReader;
 
             dataReader = command.ExecuteReader();
 
-            int debug = 0;
-
             command.Dispose();
+
+            return dataReader;
         }
 
         public void Close() {
